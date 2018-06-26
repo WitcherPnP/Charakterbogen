@@ -1,0 +1,81 @@
+.talente-box {
+	width: 185mm;
+	height: auto;
+	border: 10px double #aa8866;
+}
+
+.talente-box .left {
+	width: 92mm;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	border-right: 2px solid #aa8866;
+}
+
+.talente-box .right {
+	width: 92mm;
+	height: 100%;
+	display: inline-block;
+}
+
+.talent-item {
+	display: block;
+	width: 100%;
+	padding-top: 2px;
+	border-bottom: 1px solid #aa8866;
+	font-size: 10pt;
+	height: 16pt;
+}
+
+.dark {
+	background-color: #ffddbb;
+}
+
+.talent-item-category {
+	display: inline-block;
+	text-align: left;
+	font-weight: 300;
+	height: 100%;
+	width: 42mm;
+	font-weight: 700;
+	text-align: center;
+}
+
+.talent-item-name {
+	display: inline-block;
+	text-align: left;
+	font-weight: 300;
+	height: 100%;
+	width: 40mm;
+	padding-left: 2mm;
+}
+
+.talent-item-tw {
+	text-align: center;
+	display: inline-block;
+	width: 18mm;
+}
+
+.talent-item-sf {
+	text-align: center;
+	display: inline-block;
+	width: 8mm;
+	color: rgba(0,0,0,0);
+	border-right: 1px solid #aa8866;
+	border-left: 1px solid #aa8866;
+}
+
+.talent-item-sf-visible {
+	text-align: center;
+	display: inline-block;
+	width: 8mm;
+	border-right: 1px solid #aa8866;
+	border-left: 1px solid #aa8866;
+}
+
+
+.talent-item-wert {
+	display: inline-block;
+	width: 14mm;
+	text-align: center;
+}

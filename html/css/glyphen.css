@@ -1,0 +1,87 @@
+.glyphen {
+	width: 184mm;
+	height: auto;
+	font-size: 10pt;
+	font-weight: 700;
+	text-align: center;
+	margin-left: 0mm;
+	margin-top: 3mm;
+}
+
+.glyphen .row {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.glyphen .row-last {
+	width: 184mm;
+	height: 7mm;
+}
+
+.glyphen .header {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.glyphen .header .col-1,
+.glyphen .row .col-1 {
+	display: inline-block;
+	float: left;
+	width: 5mm;
+	padding-left: 2mm;
+	height: 6mm;
+	padding-top: 1mm;
+	text-align: left;
+}
+
+.glyphen .header .col-2,
+.glyphen .header .col-3 {
+	display: inline-block;
+	width: 50mm;
+	height: 6mm;
+	padding-top: 1mm;
+	text-align: left;
+}
+
+.glyphen .header .col-4,
+.glyphen .header .col-5 {
+	display: inline-block;
+	width: 30mm;
+	height: 6mm;
+	padding-top: 1mm;
+	text-align: left;
+}
+
+/*.glyphen .header .col-1, 
+.glyphen .row .col-1 {
+	display: inline-block;
+	width: 18mm;
+	padding-left: 2mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: left;
+}
+
+.glyphen.header .col-2, 
+.glyphen.header .col-3, 
+.glyphen.header .col-4, 
+.glyphen.header .col-5 {
+	display: inline-block;
+	width: 15mm;
+	height: 7mm;
+	text-align: center;
+}
+
+.glyphen .row .col-2, 
+.glyphen .row .col-3, 
+.glyphen .row .col-4, 
+.glyphen .row .col-5 {
+	display: inline-block;
+	width: 15mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}*/

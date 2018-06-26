@@ -1,0 +1,43 @@
+.behinderung {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: 5mm;
+}
+
+.behinderung .label {
+	position: relative;
+	top: -7mm;
+	left: -10mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.margin-top-seite2 {
+	margin-top: 5mm;
+}
+
+.schriften {
+	display: inline-block;
+	width: 127mm;
+	height: 20mm;
+	padding-left: 2mm;
+	padding-top: 2mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.sprachen {
+	display: inline-block;
+	width: 127mm;
+	height: 19mm;
+	padding-left: 2mm;
+	padding-top: 2mm;
+	font-size: 10pt;
+	font-weight: 700;
+}

@@ -1,0 +1,58 @@
+.fernkampfwaffen {
+	width: 184mm;
+	height: auto;
+	font-size: 10pt;
+	font-weight: 600;
+	text-align: center;
+}
+
+.fernkampfwaffen .row {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.fernkampfwaffen .row-last {
+	width: 184mm;
+	height: 7mm;
+}
+
+.fernkampfwaffen .header {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.fernkampfwaffen .header .col-1, 
+.fernkampfwaffen .row .col-1 {
+	display: inline-block;
+	width: 40mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: center;
+}
+
+.fernkampfwaffen .header .col-2, 
+.fernkampfwaffen .header .col-3, 
+.fernkampfwaffen .header .col-4, 
+.fernkampfwaffen .header .col-5,
+.fernkampfwaffen .header .col-6 {
+	display: inline-block;
+	width: 28mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}
+
+.fernkampfwaffen .row .col-2, 
+.fernkampfwaffen .row .col-3, 
+.fernkampfwaffen .row .col-4, 
+.fernkampfwaffen .row .col-5,
+.fernkampfwaffen .row .col-6 {
+	display: inline-block;
+	width: 28mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}

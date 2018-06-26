@@ -1,0 +1,64 @@
+.nahkampfwaffen {
+	width: 184mm;
+	height: auto;
+	font-size: 10pt;
+	font-weight: 600;
+	text-align: center;
+}
+
+.nahkampfwaffen .row {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.nahkampfwaffen .row-last {
+	width: 184mm;
+	height: 7mm;
+}
+
+.nahkampfwaffen .header {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.nahkampfwaffen .header .col-1, 
+.nahkampfwaffen .row .col-1 {
+	display: inline-block;
+	width: 40mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: center;
+}
+
+.nahkampfwaffen .header .col-2, 
+.nahkampfwaffen .header .col-3, 
+.nahkampfwaffen .header .col-4, 
+.nahkampfwaffen .header .col-5,
+.nahkampfwaffen .header .col-6,
+.nahkampfwaffen .header .col-7,
+.nahkampfwaffen .header .col-8,
+.nahkampfwaffen .header .col-9 {
+	display: inline-block;
+	width: 16mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}
+
+.nahkampfwaffen .row .col-2, 
+.nahkampfwaffen .row .col-3, 
+.nahkampfwaffen .row .col-4, 
+.nahkampfwaffen .row .col-5,
+.nahkampfwaffen .row .col-6,
+.nahkampfwaffen .row .col-7,
+.nahkampfwaffen .row .col-8,
+.nahkampfwaffen .row .col-9 {
+	display: inline-block;
+	width: 16mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}

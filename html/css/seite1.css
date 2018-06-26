@@ -1,0 +1,56 @@
+.title {
+	text-align: center;
+}
+
+.personal_data {
+	width: 190mm;
+	font-size: 12pt;
+	padding-top: 15px;
+	height: auto;
+}
+
+.personal_data .category {
+	text-align: center;
+	font-size: 14pt;
+	font-weight: 700;
+	float: left;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.personal_data div {
+	width: 90mm;
+	display: inline-block;
+	font-size: 10pt;
+}
+
+.personal_data div.links {
+	margin-right: 5mm;
+	float: left;
+}
+
+.personal_data div.rechts {
+}
+
+.personal_data div .feld {
+	width: 70mm;
+	display: block;
+	height: 18pt;
+	font-weight: 700;
+	text-aling: left;
+	border-bottom: 3px solid #aa8866;
+	padding-right: 20mm;
+	margin-top: 2mm;
+}
+
+.personal_data div .feld-ohne-rahmen {
+	width: 70mm;
+	display: block;
+	height: 18pt;
+	font-weight: 700;
+	text-aling: left;
+	padding-right: 20mm;
+	margin-top: 2mm;
+	border-bottom: 3px solid rgba(0,0,0,0);
+}

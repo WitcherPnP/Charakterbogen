@@ -1,0 +1,15 @@
+.grundattribute {
+	width: 190mm;
+	height: 17mm;
+	text-align: center;
+	font-weight: 700;
+}
+
+.attribut-feld {
+	width: 21mm;
+	height: 100%;
+	display: inline-block;
+	border: 3px solid #aa8866;
+	margin-right: 0 !important;
+	text-align: center;
+}

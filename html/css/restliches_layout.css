@@ -1,0 +1,94 @@
+.restliches-layout {
+	width: 100%;
+}
+
+.restliches-layout div {
+	font-size: 10pt;
+	font-weight: 700;
+	text-align: left;
+	padding: 3px;
+}
+
+.restliches-layout .rechts div, .restliches-layout .links div {
+	border: 10px double #aa8866;
+}
+
+.restliches-layout .rechts {
+	display: inline-block;
+	width: 100mm;
+	float: left;
+}
+
+.restliches-layout .links {
+	display: inline-block;
+	width: 79mm;
+	margin-left: 7mm;
+}
+
+.restliches-layout .rechts .werte {
+	width: 96mm;
+	height: 30mm;
+	margin-bottom: 3mm;
+}
+
+.restliches-layout .rechts .werte .berechnung {
+	font-weight: 200;
+	font-size: 8pt;
+	padding-left: 12px;
+	margin-top: -4px;
+}
+
+.restliches-layout .rechts .werte div {
+	border: 0px solid black;
+	padding: 0;
+	margin: 0 0 7px 0;
+	display: block;
+	width: 100%;
+	height: 8mm;
+}
+
+.restliches-layout .rechts .werte div .field {
+	border-bottom: 3px solid #aa8866;
+	display: inline-block;
+	width: 24pt;
+	height: 24pt;
+	position: absolute;
+	left: 87mm;
+}
+
+.restliches-layout .rechts .werte div .field-max {
+	border-bottom: 3px solid #aa8866;
+	display: inline-block;
+	width: 24pt;
+	height: 24pt;
+	position: absolute;
+	left: 103mm;
+}
+
+.restliches-layout .rechts .werte div .slash{
+	font-size: 24pt;
+	display: inline-block;
+	position: absolute;
+	left: 99mm;
+}
+
+.restliches-layout .rechts .vorteile {
+	display: inline-block;
+	width: 96mm;
+	height: 50mm;
+	margin-bottom: 3mm;
+}
+
+.restliches-layout .rechts .nachteile {
+	display: inline-block;
+	width: 96mm;
+	float: clear;
+	height: 50mm;
+}
+
+.restliches-layout .links .lebenslauf {
+	display: inline-block;
+	width: 74mm;
+	height: 150mm;
+	float: right;
+}

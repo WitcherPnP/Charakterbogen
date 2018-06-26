@@ -1,0 +1,58 @@
+.zustand {
+	width: 85mm;
+	height: auto;
+	font-size: 8pt;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	margin-left: 3mm;
+}
+
+.zustand .row {
+	width: 85mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.zustand .row-last {
+	width: 85mm;
+	height: 7mm;
+}
+
+.zustand .header {
+	width: 85mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.zustand .header .col-1, 
+.zustand .row .col-1 {
+	display: inline-block;
+	width: 18mm;
+	padding-left: 2mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: left;
+}
+
+.zustand .header .col-2, 
+.zustand .header .col-3, 
+.zustand .header .col-4, 
+.zustand .header .col-5 {
+	display: inline-block;
+	width: 15mm;
+	height: 7mm;
+	text-align: center;
+}
+
+.zustand .row .col-2, 
+.zustand .row .col-3, 
+.zustand .row .col-4, 
+.zustand .row .col-5 {
+	display: inline-block;
+	width: 15mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}

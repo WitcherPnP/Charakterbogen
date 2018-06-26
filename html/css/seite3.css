@@ -1,0 +1,169 @@
+.row1-seite3 {
+	display: block;
+	width: 190mm;
+	//height: 83mm;
+	height: auto;
+}
+
+.test-border {
+	border: 1px solid black !important;
+}
+
+.margin-top-seite3 {
+	margin-top: 6mm;
+}
+
+.margin-top-big {
+	margin-top: 9mm;
+}
+
+.row1-seite3 > .col-1 {
+	display: inline-block;
+	width: 88mm;
+	float: left;
+	margin-right: 3mm;
+	height: auto;
+}
+
+.row1-seite3 > .col-2 {
+	display: inline-block;
+	width: 84mm;
+	height: 74mm;
+	font-weight: 700;
+	font-size: 10pt;
+	padding-top: 15px; 
+	padding-left: 15px; 
+}
+
+.row2-seite3 {
+	width: 190mm;
+	height: 60mm;
+	border: 1px solid yellow;
+	display: block;
+}
+
+.row2-seite3 > .col-1 {
+	display: inline-block;
+	width: 0mm;
+	float: left;
+	margin-right: 3mm;
+	height: 78mm;
+}
+
+.row2-seite3 > .col-2 {
+	display: inline-block;
+	width: 180mm;
+	height: 74mm;
+	font-weight: 700;
+	font-size: 10pt;
+	padding-top: 15px; 
+	padding-left: 15px; 
+}
+
+.schicksalspunkte {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: 80mm;
+}
+
+.schicksalspunkte .label {
+	position: relative;
+	top: -5mm;
+	left: 5mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.geschwindigkeit {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: 45mm;
+}
+
+.geschwindigkeit .label {
+	position: relative;
+	top: -5mm;
+	left: 5mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.ausweichen {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: 10mm;
+}
+
+.ausweichen .label {
+	position: relative;
+	top: -5mm;
+	left: 5mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.ini {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: -25mm;
+}
+
+.ini .label {
+	position: relative;
+	top: -5mm;
+	left: 5mm;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.ini .description {
+	position: relative;
+	top: 5mm;
+	left: -6mm;
+	font-size: 8pt;
+	font-weight: 200;
+}
+
+.rs {
+	display: block;
+	float: right;
+	width: 45pt;
+	height: 30pt;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	position: relative;
+	top: 10mm;
+	right: -60mm;
+}
+
+.rs .label {
+	position: relative;
+	top: -5mm;
+	left: 5mm;
+	font-size: 10pt;
+	font-weight: 700;
+}

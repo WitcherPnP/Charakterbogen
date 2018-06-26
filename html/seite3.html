@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML to PDF</title>
+	<meta charset="UTF-8" />
+	<link href="css/index.css" rel="stylesheet" />
+	<link href="css/seite3.css" rel="stylesheet" />
+	<link href="css/talente.css" rel="stylesheet" />
+	<link href="css/tabelle.css" rel="stylesheet" />
+	<link href="css/nahkampfwaffen.css" rel="stylesheet" />
+	<link href="css/fernkampfwaffen.css" rel="stylesheet" />
+	<link href="css/ruestungen.css" rel="stylesheet" />
+	<link href="css/grundattribute.css" rel="stylesheet" />
+</head>
+<body>
+	<!-- 
+	content of this area will be the content of your PDF file 
+	-->
+	<div id="HTMLtoPDF">
+	
+		<div class="col-1">
+			<div class="title-box">
+				<h2 class="title">HELDENDOKUMENT</h2>
+				<h3 class="subtitle">Kampf</h3>
+			</div>
+			<div class="schicksalspunkte">
+				<span class="label">SP</span>
+			</div>
+			<div class="geschwindigkeit">
+				<span class="label">GS</span>
+			</div>
+			<div class="ausweichen">
+				<span class="label">AW</span>
+			</div>
+			<div class="ini">
+				<span class="label">INI</span>
+				<span class="description">((MU+MU+IN+GE)/5)</span>-
+			</div>
+			<div class="rs">
+				<span class="label">RS</span>
+			</div>
+		</div>
+		
+		<div class="grundattribute">
+			<div class="attribut-feld">MU</div>
+			<div class="attribut-feld">KL</div>
+			<div class="attribut-feld">IN</div>
+			<div class="attribut-feld">CH</div>
+			<div class="attribut-feld">FF</div>
+			<div class="attribut-feld">GE</div>
+			<div class="attribut-feld">KO</div>
+			<div class="attribut-feld">KK</div>
+		</div>
+		
+		<div class="row1-seite3 margin-top-big">
+			<div class="col-1 fancy-border">
+				<div class="talent-item dark">
+					<div class="talent-item-category">Waffen & Kampf</div>
+					<div class="talent-item-tw">MU/KK/GE</div>
+					<div class="talent-item-sf-visible">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Willenskraft</div>
+					<div class="talent-item-tw">MU/IN/CH</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Schwertkampf</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Axtkampf</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Bogenschießen</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Armbrustschießen</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Speerkampf</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Dolchkampf</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Stabkampf</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Raufen</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Kampftechnik</div>
+					<div class="talent-item-tw">-</div>
+					<div class="talent-item-sf">-</div>
+					<div class="talent-item-wert"></div>
+				</div>
+				<div class="talent-item">
+					<div class="talent-item-name">Ausweichschritt</div>
+					<div class="talent-item-tw">AW</div>
+					<div class="talent-item-sf-visible">-</div>
+					<div class="talent-item-wert">-</div>
+				</div>
+			</div>
+			<div class="col-2 fancy-border">Kampfsonderfertigkeiten</div>
+		</div>
+		
+		<div class="nahkampfwaffen margin-top-seite3 fancy-border">
+			<div class="header">
+				<div class="col-1">Nahkampfwaffe (Gl.)</div>
+				<div class="col-2">Hände</div>
+				<div class="col-3">TW</div>
+				<div class="col-4">TP</div>
+				<div class="col-5">BL</div>
+				<div class="col-6">PA</div>
+				<div class="col-7">MTW</div>
+				<div class="col-8">MTP</div>
+				<div class="col-9">Mod.</div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+				<div class="col-7"></div>
+				<div class="col-8"></div>
+				<div class="col-9"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+				<div class="col-7"></div>
+				<div class="col-8"></div>
+				<div class="col-9"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+				<div class="col-7"></div>
+				<div class="col-8"></div>
+				<div class="col-9"></div>
+			</div>
+			<div class="row-last">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+				<div class="col-7"></div>
+				<div class="col-8"></div>
+				<div class="col-9"></div>
+			</div>
+		</div>
+		
+		<div class="fernkampfwaffen margin-top-seite3 fancy-border">
+			<div class="header">
+				<div class="col-1">Fernkampfwaffe (Gl.)</div>
+				<div class="col-2">Ladezeit</div>
+				<div class="col-3">TW</div>
+				<div class="col-4">TP</div>
+				<div class="col-5">RW</div>
+				<div class="col-6">Mod.</div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+			</div>
+			<div class="row-last">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+				<div class="col-6"></div>
+			</div>
+		</div>
+		
+		<div class="ruestungen margin-top-seite3 fancy-border">
+			<div class="header">
+				<div class="col-1">Rüstung (Gl.) / Schild</div>
+				<div class="col-2">RS/BL</div>
+				<div class="col-3">BE</div>
+				<div class="col-4">Mod.</div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+			</div>
+			<div class="row-last">
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+			</div>
+		</div>
+		
+		<div class="zustand margin-top-seite3 fancy-border">
+			<div class="header">
+				<div class="col-1">Zustand</div>
+				<div class="col-2">Stufe I <br/>(-1)</div>
+				<div class="col-3">Stufe II <br/>(-2)</div>
+				<div class="col-4">Stufe III <br/>(-3)</div>
+				<div class="col-5">Stufe IV <br/>(K.O.)</div>
+			</div>
+			<div class="row">
+				<div class="col-1">Betäubung</div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+			</div>
+			<div class="row">
+				<div class="col-1">Furcht</div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+			</div>
+			<div class="row">
+				<div class="col-1">Schmerz</div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+			</div>
+			<div class="row">
+				<div class="col-1">Verwirrung</div>
+				<div class="col-2"></div>
+				<div class="col-3"></div>
+				<div class="col-4"></div>
+				<div class="col-5"></div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

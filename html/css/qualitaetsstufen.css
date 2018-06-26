@@ -1,0 +1,44 @@
+.qualitaetsstufen {
+	width: 45mm;
+	height: auto;
+	font-size: 8pt;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-right: 5mm;
+}
+
+.qualitaetsstufen .row {
+	width: 45mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.qualitaetsstufen .row-last {
+	width: 45mm;
+	height: 7mm;
+}
+
+.qualitaetsstufen .header {
+	width: 45mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.qualitaetsstufen .header .col-1, 
+.qualitaetsstufen .header .col-2 {
+	display: inline-block;
+	width: 20mm;
+	height: 7mm;
+	text-align: center;
+}
+
+.qualitaetsstufen .row .col-1, 
+.qualitaetsstufen .row .col-2{
+	display: inline-block;
+	width: 20mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}

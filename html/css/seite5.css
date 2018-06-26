@@ -1,0 +1,21 @@
+.ausruestung-1 {
+	margin-top: 5mm;
+	height: auto;
+	float: left;
+	margin-right: 7mm;
+}
+
+.ausruestung-2 {
+	margin-top: 5mm;
+	height: auto;
+}
+
+.ausruestung-2 .subsection {
+	text-align: left;
+	font-size: 12pt;
+	font-weight: 600;
+	display: block;
+	height: auto;
+	padding-top: 1mm;
+	padding-left: 2mm;
+}

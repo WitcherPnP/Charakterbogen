@@ -1,0 +1,210 @@
+.geldbeutel {
+	margin-top: 5mm;
+	display: inline-block;
+	width: 97mm;
+	border: 3px solid #aa8866;
+	background-color: #ffddbb;
+	font-size: 10pt;
+	float: right;
+}
+
+.geldbeutel .titel {
+	display: block;
+	width: 100%;
+	font-weight: 700;
+	font-size: 12pt;
+	text-align: center;
+	margin: 2mm 0 2mm 0;
+	color: #664422;
+}
+
+.geldbeutel .waehrung-temerien {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 55px;
+	height: 56px;
+	margin: 3mm 1mm 2mm 1mm;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	color: #aa8866;
+	padding: 0;
+}
+
+.geldbeutel .waehrung-temerien .ort {
+	position: relative;
+	left: -1mm;
+	top: -5mm;
+	font-weight: 600;
+}
+
+.geldbeutel .waehrung-temerien .geld {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin-top: -3mm;
+	margin-left: 2mm;
+}
+
+.geldbeutel .waehrung-gors-velen {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 107px;
+	height: 56px;
+	margin: 3mm 1mm 2mm 1mm;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	color: #aa8866;
+	padding: 0;
+}
+
+.geldbeutel .waehrung-gors-velen .ort {
+	position: relative;
+	left: 0mm;
+	top: -5mm;
+	font-weight: 600;
+}
+
+.geldbeutel .waehrung-gors-velen > .groschen-block {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin: -3mm 2mm 0 2mm;
+}
+
+.geldbeutel .waehrung-gors-velen > .nobel-block {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin-top: -3mm;
+	margin-left: 2mm;
+}
+
+.geldbeutel .waehrung-gors-velen > .groschen-block .label {
+	position: relative;
+	top: 32px;
+	left: -2mm;
+}
+
+.geldbeutel .waehrung-gors-velen > .nobel-block .label {
+	position: relative;
+	top: 32px;
+	left: 5px;
+}
+
+.geldbeutel .waehrung-nilfgaard {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 55px;
+	height: 56px;
+	margin: 3mm 1mm 2mm 1mm;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	color: #aa8866;
+	padding: 0;
+}
+
+.geldbeutel .waehrung-nilfgaard .ort {
+	position: relative;
+	left: -1mm;
+	top: -5mm;
+	font-weight: 600;
+}
+
+.geldbeutel .waehrung-nilfgaard .geld {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin-top: -3mm;
+	margin-left: 2mm;
+}
+
+.geldbeutel .waehrung-nilfgaard .geld .label {
+	position: relative;
+	top: 32px;
+	left: -2px;
+}
+
+.geldbeutel .waehrung-redanien {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 107px;
+	height: 56px;
+	margin: 3mm 1mm 2mm 1mm;
+	border: 2px solid #aa8866;
+	background-color: #ffddbb;
+	color: #aa8866;
+	padding: 0;
+}
+
+.geldbeutel .waehrung-redanien .ort {
+	position: relative;
+	left: 0mm;
+	top: -5mm;
+	font-weight: 600;
+}
+
+.geldbeutel .waehrung-redanien > .kopper-block {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin: -3mm 2mm 0 2mm;
+}
+
+.geldbeutel .waehrung-redanien > .kronen-block {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 37px;
+	height: 29px;
+	background-color: #ffeecc;
+	color: #aa8866;
+	border: 2px solid #aa8866;
+	margin-top: -3mm;
+	margin-left: 2mm;
+}
+
+.geldbeutel .waehrung-redanien > .kopper-block .label {
+	position: relative;
+	top: 32px;
+	left: -3px;
+}
+
+.geldbeutel .waehrung-redanien > .kronen-block .label {
+	position: relative;
+	top: 32px;
+	left: -4px;
+}
+
+.geldbeutel .geld .label {
+	position: relative;
+	top: 32px;
+}

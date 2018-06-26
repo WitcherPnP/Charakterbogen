@@ -1,0 +1,68 @@
+.skills {
+	width: 184mm;
+	height: auto;
+	font-size: 10pt;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 3mm;
+}
+
+.skills .row {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.skills .row-last {
+	width: 184mm;
+	height: 7mm;
+}
+
+.skills .header {
+	width: 184mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.skills .header .col-1, 
+.skills .row .col-1 {
+	display: inline-block;
+	width: 42mm;
+	padding-left: 2mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: left;
+}
+
+.skills .header .col-2, 
+.skills .header .col-3, 
+.skills .header .col-4, 
+.skills .header .col-5,
+.skills .header .col-6,
+.skills .header .col-7,
+.skills .header .col-8,
+.skills .header .col-9,
+.skills .header .col-10 {
+	display: inline-block;
+	width: 14mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}
+
+.skills .row .col-2, 
+.skills .row .col-3, 
+.skills .row .col-4, 
+.skills .row .col-5,
+.skills .row .col-6,
+.skills .row .col-7,
+.skills .row .col-8,
+.skills .row .col-9
+.skills .row .col-10 {
+	display: inline-block;
+	width: 14mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}

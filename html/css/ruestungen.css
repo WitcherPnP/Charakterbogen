@@ -1,0 +1,56 @@
+.ruestungen {
+	width: 90mm;
+	height: auto;
+	font-size: 10pt;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.ruestungen .row {
+	width: 90mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.ruestungen .row-last {
+	width: 90mm;
+	height: 7mm;
+}
+
+.ruestungen .header {
+	width: 90mm;
+	height: 7mm;
+	border-bottom: 3px solid #aa8866;
+}
+
+.ruestungen .header .col-1, 
+.ruestungen .row .col-1 {
+	display: inline-block;
+	width: 40mm;
+	height: 5mm;
+	padding-top: 2mm;
+	float: left;
+	text-align: center;
+}
+
+.ruestungen .header .col-2, 
+.ruestungen .header .col-3, 
+.ruestungen .header .col-4 {
+	display: inline-block;
+	width: 16mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}
+
+.ruestungen .row .col-2, 
+.ruestungen .row .col-3, 
+.ruestungen .row .col-4 {
+	display: inline-block;
+	width: 16mm;
+	height: 5mm;
+	padding-top: 2mm;
+	text-align: center;
+}
