@@ -8,6 +8,11 @@
 	<link href="css/talente.css" rel="stylesheet" />
 	<link href="css/qualitaetsstufen.css" rel="stylesheet" />
 	<link href="css/grundattribute.css" rel="stylesheet" />
+
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
+	<script src="js/ready.js"></script>
+	<script src="js/html-to-pdf.js"></script>
 </head>
 <body>
 	<!-- 
@@ -395,6 +400,10 @@
 		
 		<div class="sprachen margin-top-seite2 fancy-border">Sprachen</div>
 		<div class="schriften margin-top-seite2 fancy-border">Schriften</div>
-	</div>
+
+	</div> <!-- /HTMLtoPDF -->
+
+	<!-- here we call the function that makes PDF -->
+	<a href="#" class="save-button" onclick="generatePDF('seite2')">Download PDF</a>
 </body>
 </html>

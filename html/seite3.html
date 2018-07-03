@@ -11,6 +11,11 @@
 	<link href="css/fernkampfwaffen.css" rel="stylesheet" />
 	<link href="css/ruestungen.css" rel="stylesheet" />
 	<link href="css/grundattribute.css" rel="stylesheet" />
+
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
+	<script src="js/ready.js"></script>
+	<script src="js/html-to-pdf.js"></script>
 </head>
 <body>
 	<!-- 
@@ -300,6 +305,9 @@
 			</div>
 		</div>
 		
-	</div>
+	</div> <!-- /HTMLtoPDF -->
+
+	<!-- here we call the function that makes PDF -->
+	<a href="#" class="save-button" onclick="generatePDF('seite3')">Download PDF</a>
 </body>
 </html>
