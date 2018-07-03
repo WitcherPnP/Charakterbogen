@@ -6,6 +6,12 @@
 	background-color: #ffeecc;
 }
 
+#HTMLtoPDF::after {
+	content: "";
+	display: block;
+	height: 90px;
+}
+
 h2 {
 	font-size: 24pt;
 	font-weight: 700;
@@ -47,4 +53,14 @@ h3 {
 	font-size: 12pt;
 	margin: 0;
 	padding: 0;
+}
+
+.save-button {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	background-color: rgba(8, 54, 124, 0.8);
+	color: white;
+	padding: 5px;
+	text-decoration: none;
 }

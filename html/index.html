@@ -7,6 +7,11 @@
 	<link href="css/seite1.css" rel="stylesheet" />
 	<link href="css/grundattribute.css" rel="stylesheet" />
 	<link href="css/restliches_layout.css" rel="stylesheet" />
+
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
+	<script src="js/ready.js"></script>
+	<script src="js/html-to-pdf.js"></script>
 </head>
 <body>
 	<!-- 
@@ -14,79 +19,76 @@
 	-->
 	<div id="HTMLtoPDF">
 
-	<h2 class="title">HELDENDOKUMENT</h2>
+		<h2 class="title">HELDENDOKUMENT</h2>
 
-	<div class="personal_data">
-		<div class="category">Persönliche Daten</div>
-		<div class="links">
-			<div class="feld">Name</div>
-			<div class="feld">Geschlecht</div>
-			<div class="feld">Rasse</div>
-			<div class="feld">Geburtsdatum</div>
-			<div class="feld">Alter</div>
-			<div class="feld">Haarfarbe</div>
-			<div class="feld">Augenfarbe</div>
-			<div class="feld">Größe / Gewicht</div>
-		</div>
-		<div class="rechts">
-			<div class="feld">Profession</div>
-			<div class="feld">Kultur</div>
-			<div class="feld">Sozialstatus</div>
-			<div class="feld">Geburtsort</div>
-			<div class="feld-ohne-rahmen">Aufgewachsen</div>
-			<div class="feld"></div>
-			<div class="feld-ohne-rahmen">Eltern</div>
-			<div class="feld"></div>
-		</div>
-	</div>
-	
-	<div class="grundattribute margin-top">
-		<div class="attribut-feld">MU</div>
-		<div class="attribut-feld">KL</div>
-		<div class="attribut-feld">IN</div>
-		<div class="attribut-feld">CH</div>
-		<div class="attribut-feld">FF</div>
-		<div class="attribut-feld">GE</div>
-		<div class="attribut-feld">KO</div>
-		<div class="attribut-feld">KK</div>
-	</div>
-	
-	<div class="restliches-layout margin-top">
-		<div class="rechts">
-			<div class="werte">
-				<div class="lebenspunkte">
-					Lebenspunkte 
-					<span class="field"></span>
-					<span class="slash">/</span>
-					<span class="field-max"></span><br />
-					<span class="berechnung">(LP der Rasse +KO +KO)</span>
-				</div>
-				<div class="mana">
-					Mana 
-					<span class="field"></span>
-					<span class="slash">/</span>
-					<span class="field-max"></span><br />
-					<span class="berechnung">(MP der Rasse +KL +KL)</span>
-				</div>
-				<div class="ausweichen">
-					Ausweichen <span class="field"></span><br />
-					<span class="berechnung">(GE/2)</span>
-				</div>
+		<div class="personal_data">
+			<div class="category">Persönliche Daten</div>
+			<div class="links">
+				<div class="feld">Name</div>
+				<div class="feld">Geschlecht</div>
+				<div class="feld">Rasse</div>
+				<div class="feld">Geburtsdatum</div>
+				<div class="feld">Alter</div>
+				<div class="feld">Haarfarbe</div>
+				<div class="feld">Augenfarbe</div>
+				<div class="feld">Größe / Gewicht</div>
 			</div>
-			<div class="vorteile">Vorteile</div>
-			<div class="nachteile">Nachteile</div>
+			<div class="rechts">
+				<div class="feld">Profession</div>
+				<div class="feld">Kultur</div>
+				<div class="feld">Sozialstatus</div>
+				<div class="feld">Geburtsort</div>
+				<div class="feld-ohne-rahmen">Aufgewachsen</div>
+				<div class="feld"></div>
+				<div class="feld-ohne-rahmen">Eltern</div>
+				<div class="feld"></div>
+			</div>
 		</div>
-		<div class="links">
-			<div class="lebenslauf">Lebenslauf</div>
+		
+		<div class="grundattribute margin-top">
+			<div class="attribut-feld">MU</div>
+			<div class="attribut-feld">KL</div>
+			<div class="attribut-feld">IN</div>
+			<div class="attribut-feld">CH</div>
+			<div class="attribut-feld">FF</div>
+			<div class="attribut-feld">GE</div>
+			<div class="attribut-feld">KO</div>
+			<div class="attribut-feld">KK</div>
 		</div>
+		
+		<div class="restliches-layout margin-top">
+			<div class="rechts">
+				<div class="werte">
+					<div class="lebenspunkte">
+						Lebenspunkte 
+						<span class="field"></span>
+						<span class="slash">/</span>
+						<span class="field-max"></span><br />
+						<span class="berechnung">(LP der Rasse +KO +KO)</span>
+					</div>
+					<div class="mana">
+						Mana 
+						<span class="field"></span>
+						<span class="slash">/</span>
+						<span class="field-max"></span><br />
+						<span class="berechnung">(MP der Rasse +KL +KL)</span>
+					</div>
+					<div class="ausweichen">
+						Ausweichen <span class="field"></span><br />
+						<span class="berechnung">(GE/2)</span>
+					</div>
+				</div>
+				<div class="vorteile">Vorteile</div>
+				<div class="nachteile">Nachteile</div>
+			</div>
+			<div class="links">
+				<div class="lebenslauf">Lebenslauf</div>
+			</div>
+		</div>
+
 	</div>
 
 	<!-- here we call the function that makes PDF -->
-	<!--<a href="#" onclick="HTMLtoPDF()">Download PDF</a>-->
-
-	<!-- these js files are used for making PDF -->
-	<!--<script src="js/jspdf.js"></script>
-	<script src="js/jquery-2.1.3.js"></script>
-	<script src="js/pdfFromHTML.js"></script>-->
+	<a href="#" class="save-button" onclick="generatePDF('seite1')">Download PDF</a>
 </body>
 </html>

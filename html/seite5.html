@@ -8,6 +8,11 @@
 	<link href="css/liste.css" rel="stylesheet" />
 	<link href="css/tier.css" rel="stylesheet" />
 	<link href="css/geldbeutel.css" rel="stylesheet" />
+
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/html2canvas.min.js"></script>
+	<script src="js/ready.js"></script>
+	<script src="js/html-to-pdf.js"></script>
 </head>
 <body>
 	<!-- 
@@ -158,6 +163,9 @@
 			
 		</div>
 		
-	</div>
+	</div> <!-- /HTMLtoPDF -->
+
+	<!-- here we call the function that makes PDF -->
+	<a href="#" class="save-button" onclick="generatePDF('seite5')">Download PDF</a>
 </body>
 </html>
