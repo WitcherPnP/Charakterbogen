@@ -13,3 +13,79 @@
 	margin-top: 3mm;
 	height: auto;
 }
+
+.infos {
+	width: 189mm;
+	height: 45mm;
+	display: block;
+}
+
+.infos .spezialisierungen {
+	width: 85mm;
+	float: right;
+}
+
+.infos .spezialisierungen > .feld {
+	margin-top: 3mm;
+	border-bottom: 3px solid #aa8866;
+	height: 7mm;
+}
+
+.infos .tabelle {
+	width: 100mm;
+	float: left;
+	border: 3px solid #aa8866;
+	font-size: 10pt;
+}
+
+.infos .tabelle .row {
+	height: 5mm;
+	border-bottom: 2px solid #aa8866;
+}
+
+.infos .tabelle .row-last {
+	height: 5mm;
+}
+
+.infos .tabelle .header {
+	height: 5mm;
+	font-weight: 700;
+	border-bottom: 3px solid #aa8866;
+}
+
+.infos .tabelle .header .col-1,
+.infos .tabelle .row .col-1,
+.infos .tabelle .row-last .col-1 {
+	width: 32mm;
+	padding-left: 1mm;
+	float: left;
+	height: 100%;
+	font-weight: 700;
+}
+
+.infos .tabelle .header .col-2,
+.infos .tabelle .row .col-2,
+.infos .tabelle .row-last .col-2 {
+	width: 20mm;
+	padding-left: 1mm;
+	float: left;
+	height: 100%;
+}
+
+.infos .tabelle .header .col-3,
+.infos .tabelle .row .col-3,
+.infos .tabelle .row-last .col-3 {
+	width: 20mm;
+	padding-left: 1mm;
+	float: left;
+	height: 100%;
+}
+
+.infos .tabelle .header .col-4,
+.infos .tabelle .row .col-4,
+.infos .tabelle .row-last .col-4 {
+	width: 23mm;
+	padding-left: 1mm;
+	float: left;
+	height: 100%;
+}

@@ -13,7 +13,12 @@
 }
 
 .herbarium {
-	margin-top: 6mm;
+	margin-top: 3mm;
+	height: auto;
+}
+
+.herbarium {
+	margin-top: 3mm;
 	height: auto;
 	width: 184mm !important;
 }
@@ -27,7 +32,7 @@
 }
 
 .herbarium .row .col-1 {
-	width: 50mm;
+	width: 53mm;
 	padding-left: 2mm;
 	display: inline-block;
 	float: left;
@@ -70,7 +75,7 @@
 }
 
 .herbarium .row .col-8 {
-	width: 15mm;
+	width: 12mm;
 	padding-left: 2mm;
 	display: inline-block;
 }
@@ -83,60 +88,6 @@
 
 .tränke .col-7 {
 	width: 5mm;
-	padding-left: 0mm;
-	display: inline-block;
-}
-
-.öle {
-	margin-right: 5mm;
-}
-
-.öle .inner-header {
-	height: 6mm;
-	padding-top: 1mm;
-	font-weight: 700;
-	border-bottom: 2px solid #aa8866;
-}
-
-.öle .inner-header .col-1 {
-	width: 70mm;
-	padding-left: 2mm;
-	display: inline-block;
-	float: left;
-}
-
-.öle .inner-header .col-2 {
-	width: 10mm;
-	padding-left: 0mm;
-	display: inline-block;
-}
-
-.bomben {
-	margin-right: 1mm;
-}
-
-.bomben .inner-header {
-	height: 6mm;
-	padding-top: 1mm;
-	font-weight: 700;
-	border-bottom: 2px solid #aa8866;
-}
-
-.bomben .inner-header .col-1 {
-	width: 54mm;
-	padding-left: 2mm;
-	display: inline-block;
-	float: left;
-}
-
-.bomben .inner-header .col-2 {
-	width: 15mm;
-	padding-left: 0mm;
-	display: inline-block;
-}
-
-.bomben .inner-header .col-3 {
-	width: 10mm;
 	padding-left: 0mm;
 	display: inline-block;
 }

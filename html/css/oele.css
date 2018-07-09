@@ -1,0 +1,11 @@
+.tränke {
+  margin-top: 3mm;
+}
+
+.tränke .header {
+  padding-top: 1mm;
+  padding-left: 1mm;
+  height: 6mm;
+  font-weight: 700;
+  border-bottom: 2px solid #aa8866;
+}

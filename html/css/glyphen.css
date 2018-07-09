@@ -26,7 +26,8 @@
 }
 
 .glyphen .header .col-1,
-.glyphen .row .col-1 {
+.glyphen .row .col-1,
+.glyphen .row-last .col-1 {
 	display: inline-block;
 	float: left;
 	width: 5mm;
