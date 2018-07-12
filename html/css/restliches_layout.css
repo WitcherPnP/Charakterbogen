@@ -65,11 +65,19 @@
 	left: 103mm;
 }
 
-.restliches-layout .rechts .werte div .slash{
+.restliches-layout .rechts .werte div .slash {
 	font-size: 24pt;
 	display: inline-block;
 	position: absolute;
 	left: 99mm;
+}
+
+.restliches-layout .rechts .werte div .plus {
+	font-size: 19pt;
+	display: inline-block;
+	position: absolute;
+	top: 147mm;
+	left: 98mm;
 }
 
 .restliches-layout .rechts .vorteile {
