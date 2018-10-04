@@ -35,20 +35,23 @@
 	width: 100mm;
 	float: left;
 	border: 3px solid #aa8866;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 .infos .tabelle .row {
-	height: 5mm;
+	padding-top: 1mm;
+	height: 6mm;
 	border-bottom: 2px solid #aa8866;
 }
 
 .infos .tabelle .row-last {
-	height: 5mm;
+	padding-top: 1mm;
+	height: 6mm;
 }
 
 .infos .tabelle .header {
-	height: 5mm;
+	padding-top: 1mm;
+	height: 6mm;
 	font-weight: 700;
 	border-bottom: 3px solid #aa8866;
 }
