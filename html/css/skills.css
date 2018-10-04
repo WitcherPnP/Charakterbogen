@@ -27,7 +27,7 @@
 .skills .row .col-1,
 .skills .row-last .col-1 {
 	display: inline-block;
-	width: 65mm;
+	width: 70mm;
 	padding-left: 2mm;
 	height: 5mm;
 	padding-top: 2mm;
@@ -38,9 +38,14 @@
 .skills .row .col-2,
 .skills .row-last .col-2 {
 	display: inline-block;
-	width: 10mm;
+	width: 13mm;
 	height: 5mm;
 	padding-top: 2mm;
+}
+
+.skills .row .col-2,
+.skills .row-last .col-2 {
+	opacity: 0;
 }
 
 .skills .header .col-3, 
@@ -55,7 +60,7 @@
 .skills .row .col-4,
 .skills .row-last .col-4 {
 	display: inline-block;
-	width: 28mm;
+	width: 32mm;
 	height: 5mm;
 	padding-top: 2mm;
 }
@@ -63,7 +68,7 @@
 .skills .row .col-5,
 .skills .row-last .col-5 {
 	display: inline-block;
-	width: 30mm;
+	width: 18mm;
 	height: 5mm;
 	padding-top: 2mm;
 } 
