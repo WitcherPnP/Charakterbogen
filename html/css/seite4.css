@@ -28,7 +28,7 @@
 .infos .spezialisierungen > .feld {
 	margin-top: 3mm;
 	border-bottom: 3px solid #aa8866;
-	height: 7mm;
+	height: 6mm;
 }
 
 .infos .tabelle {
@@ -59,7 +59,7 @@
 .infos .tabelle .header .col-1,
 .infos .tabelle .row .col-1,
 .infos .tabelle .row-last .col-1 {
-	width: 32mm;
+	width: 29mm;
 	padding-left: 1mm;
 	float: left;
 	height: 100%;
@@ -69,7 +69,7 @@
 .infos .tabelle .header .col-2,
 .infos .tabelle .row .col-2,
 .infos .tabelle .row-last .col-2 {
-	width: 20mm;
+	width: 21mm;
 	padding-left: 1mm;
 	float: left;
 	height: 100%;
@@ -78,7 +78,7 @@
 .infos .tabelle .header .col-3,
 .infos .tabelle .row .col-3,
 .infos .tabelle .row-last .col-3 {
-	width: 20mm;
+	width: 22mm;
 	padding-left: 1mm;
 	float: left;
 	height: 100%;
